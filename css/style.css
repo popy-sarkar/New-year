@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    margin: 0;
+    
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+}
+.para{
+    font-size: 17px;
+    font-weight: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: gray;
+}
+.btn{
+    color: whitesmoke;
+    font-weight: 600px;
+    font-size: 20px;
+    border: 0;
+    padding: 15px 25px;
+    height: 40;
+    border-radius: 5px;
+    background-color: orange;
+}
+.header{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: right;
+    padding-right: 200px;
+}
+.back-img{
+   background-image: url(images/banner/banner2.png);
+
+}
+/*-----failure part*/
+.failures-container{
+    display: flex;
+    gap: 70px;
+}
+.sec-part{
+    padding: 90px 130px;
+}
+.text-part{
+    padding-top: 300px;
+    
+}
+.text{
+    font-size: 47px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+li{
+    display: flex;
+}
+ul img{
+    size: 12px;
+}
+.check-para{
+    font-size: 12px;
+}
+.icon-text{
+    text-align: center;
+}
+
+
+/*plan section*/
+.plan-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.plan-container{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+
+}
+.plan-sec{
+    text-align: center;
+    padding-top: 90px;
+}
+.plan{
+    background: white;
+    padding: 80px;
+    text-align: center;
+    
+}
+/*gradient part*/
+.g-text{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 18px;
+
+}
+.gradient-btn{
+    background-color: aliceblue;
+    color: black;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.gradient-sec{
+    background-image: linear-gradient(to right,rgb(146, 5, 5)
+    rgb(243, 104, 104));
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.sec{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*bonus part*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.nav-text{
+    color: blueviolet;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+
+/*footer*/
+
+.footer-sub{
+    background-color: black;
+}
+.footer-text{
+   padding-bottom: 15px;
+   font-size: 15px;
+}
+.footer-para{
+    padding-top: 9px;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.footer-container{
+    display: flex;
+    color: white;
+    padding-top: 70px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 100px;
+    text-align: left;
+}
+.sub{
+    padding-bottom: 8px;
+}
+input{
+    height: 40px;
+    width: 60%;
+    background-color: black;
+    border: 0;
+
+}
+.icons{
+    padding-bottom: 40px;
+}
